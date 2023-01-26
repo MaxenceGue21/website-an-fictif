@@ -1,0 +1,328 @@
+/* ! Rules*/
+@font-face {
+  font-family: Lato;
+  src: url("Lato-Bold.ttf");
+}
+body {
+  font-family: "Lato", "Arial", "serif", "sans-serif";
+}
+
+/* * Header*/
+header {
+  text-align: center;
+}
+
+h1 {
+  background-color: #e1000f;
+  padding: 5px 0px 5px 0px;
+  text-shadow: 2px 2px 6px gray;
+}
+.txt_header {
+  font-size: 13px;
+  margin-top: -15px;
+  font-style: italic;
+  color: green;
+}
+
+.logo_AN_header {
+  background-color: #003c78;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav {
+  box-shadow: 0px 5px 10px gray;
+  margin: 0px 0px 20px 0px;
+  padding: 10px 0px 10px 0px;
+}
+.link_NAV1,
+.link_NAV2,
+.link_NAV3 {
+  margin-right: 100px;
+}
+#link_NAV:link {
+  color: #d60235;
+  text-decoration: none;
+  font-weight: bold;
+}
+#link_NAV:hover {
+  color: #d60235;
+  border: 2px solid black;
+  padding: 2px 2px 2px 2px;
+}
+#link_NAV:active {
+  color: green;
+  text-decoration: underline;
+  font-style: italic;
+}
+#link_NAV:visited {
+  color: purple;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.long_line {
+  box-shadow: 0px 5px 20px black;
+}
+
+/* * INDEX*/
+/* Assembly Agenda*/
+#section_Assembly-Agenda {
+  text-align: center;
+}
+
+.Assembly-Agenda {
+  border: 5px solid black;
+  margin-top: 90px;
+  display: inline-block;
+  margin-inline: 300px;
+  padding: 5px 32px;
+  width: min(90%, 1000px);
+}
+.title_assembly-agenda {
+  color: #e34051;
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgb(77, 77, 77);
+  padding: 5px 0px 5px 0px;
+}
+.next_seance {
+  text-align: center;
+  margin-top: -18px;
+  text-decoration: underline;
+}
+.Assembly-Agenda_content {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* The Presidency | Member of Parliament*/
+.title_prst-member {
+  color: black;
+  text-align: center;
+  margin-top: 55px;
+}
+.small_line {
+  text-align: center;
+}
+.link_prst {
+  text-decoration: none;
+  color: black;
+}
+.img_YBP {
+  box-shadow: 2px 2px 20px gray;
+  border-radius: 100%;
+  margin-right: 620px;
+  margin-left: 200px;
+}
+.txt_YBP {
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 160px;
+}
+.txt_compoAN {
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.link_depute {
+  text-decoration: none;
+  color: black;
+}
+#div_prst-member {
+  display: flex;
+}
+
+/* * DÉPUTÉ*/
+/* Member of Parliament*/
+.compo_AN {
+  text-align: center;
+  margin-top: 50px;
+}
+.nb_depute_grp {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+#tableau_center {
+  margin-left: auto;
+  margin-right: auto;
+}
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+td {
+  background-color: gray;
+}
+caption {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: black;
+  text-decoration: underline;
+}
+
+#apr {
+  color: #ffe577;
+}
+#pcf {
+  color: #a20000;
+}
+#r {
+  color: #00bbbb;
+}
+#nd {
+  color: #3498db;
+}
+#lfs {
+  color: #520811;
+}
+#ps {
+  color: #f52160;
+}
+#rn {
+  color: #3133af;
+}
+#ni {
+  color: gray;
+}
+
+.prst_groupe {
+  color: rgb(206, 3, 3);
+  text-decoration: underline;
+}
+
+/* * TRAVAUX PARLEMENTAIRES*/
+/* Last session*/
+.title_lastsession {
+  color: black;
+  margin-top: 10px;
+}
+.p_center {
+  text-align: center;
+}
+
+#last-session {
+  text-align: center;
+}
+
+.last_session {
+  border: 5px solid black;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-inline: 300px;
+  padding: 5px 32px;
+  width: min(90%, 1000px);
+  text-align: center;
+}
+
+.title_allsession {
+  text-align: center;
+  margin-top: 30px;
+  padding-left: -50px;
+}
+.small_line_2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Textes adoptés/refusés/en cours de débat*/
+.title_txtadopt {
+  margin-top: 50px;
+}
+
+.link_txtdelois_adopt {
+  text-decoration: none;
+  color: #16c60c;
+}
+.link_txtdelois_adopt:hover {
+  text-decoration: underline;
+}
+
+.title_txtrefuse {
+  margin-top: 50px;
+}
+.link_txtdelois_refuse {
+  text-decoration: none;
+  color: #e81224;
+}
+.link_txtdelois_refuse:hover {
+  text-decoration: underline;
+}
+
+.title_txtencourstraitement {
+  margin-top: 50px;
+}
+
+.li {
+  margin-top: 10px;
+}
+
+/* * LA PRÉSIDENCE*/
+/* Cabinet de la Présidente*/
+.title_cabinetprst {
+  color: black;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#div_cabinetprst {
+  display: flex;
+}
+.legende_imgYBP {
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.img_MO {
+  box-shadow: 2px 2px 20px gray;
+  border-radius: 20%;
+  margin-left: -80px;
+}
+.legende_imgMO {
+  margin-left: -70px;
+  margin-top: 20px;
+}
+
+/* Les VP Assemblée nationale*/
+.title_vp {
+  text-align: center;
+}
+#div_1erVP {
+  text-align: center;
+  margin-top: 50px;
+}
+.MLP {
+  box-shadow: 2px 2px 20px gray;
+  border-radius: 100%;
+}
+
+#VP {
+  display: flex;
+}
+.JA {
+  box-shadow: 2px 2px 20px gray;
+  border-radius: 50%;
+}
+.JLD {
+  box-shadow: 2px 2px 20px gray;
+  border-radius: 25%;
+  margin-left: 200px;
+}
+.LJ {
+  box-shadow: 2px 2px 20px gray;
+  border-radius: 70%;
+  margin-left: 300px;
+}
