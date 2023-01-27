@@ -40,25 +40,13 @@ nav {
 .link_NAV3 {
   margin-right: 100px;
 }
-#link_NAV:link {
-  color: #d60235;
+#link_NAV {
+  color: #3558a2;
   text-decoration: none;
-  font-weight: bold;
 }
 #link_NAV:hover {
-  color: #d60235;
-  border: 2px solid black;
-  padding: 2px 2px 2px 2px;
-}
-#link_NAV:active {
-  color: green;
+  color: #e1000f;
   text-decoration: underline;
-  font-style: italic;
-}
-#link_NAV:visited {
-  color: purple;
-  text-decoration: none;
-  font-weight: normal;
 }
 
 .long_line {
