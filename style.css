@@ -6,6 +6,18 @@
 body {
   font-family: "Lato", "Arial", "serif", "sans-serif";
 }
+.construction {
+  color: #eb2f06;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 195px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.69);
+  border: 10px inset #e1000f;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 /* * Header*/
 header {
@@ -259,58 +271,4 @@ caption {
   margin-top: 10px;
 }
 
-/* * LA PRÉSIDENCE*/
-/* Cabinet de la Présidente*/
-.title_cabinetprst {
-  color: black;
-  margin-top: 30px;
-  text-align: center;
-}
-
-#div_cabinetprst {
-  display: flex;
-}
-.legende_imgYBP {
-  margin-left: 150px;
-  margin-top: 20px;
-}
-.img_MO {
-  box-shadow: 2px 2px 20px gray;
-  border-radius: 20%;
-  margin-left: -80px;
-}
-.legende_imgMO {
-  margin-left: -70px;
-  margin-top: 20px;
-}
-
-/* Les VP Assemblée nationale*/
-.title_vp {
-  text-align: center;
-}
-#div_1erVP {
-  text-align: center;
-  margin-top: 50px;
-}
-.MLP {
-  box-shadow: 2px 2px 20px gray;
-  border-radius: 100%;
-}
-
-#VP {
-  display: flex;
-}
-.JA {
-  box-shadow: 2px 2px 20px gray;
-  border-radius: 50%;
-}
-.JLD {
-  box-shadow: 2px 2px 20px gray;
-  border-radius: 25%;
-  margin-left: 200px;
-}
-.LJ {
-  box-shadow: 2px 2px 20px gray;
-  border-radius: 70%;
-  margin-left: 300px;
-}
+/* ! LA PRÉSIDENCE*/
