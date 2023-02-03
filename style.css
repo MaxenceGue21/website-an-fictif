@@ -266,6 +266,10 @@ caption {
 .title_txtencourstraitement {
   margin-top: 50px;
 }
+.link_txtdelois_traitement {
+  text-decoration: none;
+  color: #f7630c;
+}
 
 .li {
   margin-top: 10px;
