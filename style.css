@@ -275,4 +275,34 @@ caption {
   margin-top: 10px;
 }
 
-/* ! LA PRÉSIDENCE*/
+/* * LA PRÉSIDENCE*/
+.img_presentation {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+#img_GR {
+  margin-right: 60px;
+}
+.nom_président {
+  text-align: center;
+  margin-top: 20px;
+}
+#nom_président {
+  color: #d60235;
+}
+
+.biography {
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Photos*/
+.img_YBP_2 {
+  box-shadow: 2px 2px 20px gray;
+  border-radius: 100%;
+}
+#img_YBP {
+  text-align: center;
+  margin-top: 30px;
+}
