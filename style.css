@@ -243,7 +243,6 @@ caption {
 .title_txtadopt {
   margin-top: 50px;
 }
-
 .link_txtdelois_adopt {
   text-decoration: none;
   color: #16c60c;
@@ -269,6 +268,9 @@ caption {
 .link_txtdelois_traitement {
   text-decoration: none;
   color: #f7630c;
+}
+.link_txtdelois_traitement:hover {
+  text-decoration: underline;
 }
 
 .li {
