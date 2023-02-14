@@ -219,6 +219,15 @@ nav {
   margin-top: 40px;
 }
 
+.title_ADT {
+  text-align: center;
+}
+.iframe_adt {
+  margin-top: 20px;
+  width: 100%;
+  height: 900px;
+}
+
 /* Textes adoptés/refusés/en cours de débat*/
 .title_txtadopt {
   margin-top: 50px;
