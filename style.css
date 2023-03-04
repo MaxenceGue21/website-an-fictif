@@ -1,299 +1,166 @@
-/* ! Rules*/
-@font-face {
-  font-family: Lato;
-  src: url("Lato-Bold.ttf");
-}
-body {
-  font-family: "Lato", "Arial", "serif", "sans-serif";
-}
-.construction {
-  color: #eb2f06;
-  font-size: 40px;
-  text-align: center;
-  margin-top: 195px;
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.69);
-  border: 10px inset #e1000f;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-/* * Header*/
-header {
-  text-align: center;
-}
-
-h1 {
-  background-color: #e1000f;
-  padding: 5px 0px 5px 0px;
-  text-shadow: 2px 2px 6px gray;
-}
-.txt_header {
-  font-size: 13px;
-  margin-top: -15px;
-  font-style: italic;
-  color: green;
-}
-
-.logo_AN_header {
-  background-color: #003c78;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-/* NAV*/
-nav {
-  box-shadow: 0px 5px 10px gray;
-  margin: 0px 0px 20px 0px;
-  padding: 10px 0px 10px 0px;
-}
-.link_NAV1,
-.link_NAV2,
-.link_NAV3 {
-  margin-right: 100px;
-}
-#link_NAV {
-  color: #3558a2;
-  text-decoration: none;
-}
-#link_NAV:hover {
-  color: #e1000f;
-  text-decoration: underline;
-}
-
-.long_line {
-  box-shadow: 0px 5px 20px black;
-}
-
-/* * INDEX*/
-/* Assembly Agenda*/
-#section_Assembly-Agenda {
-  text-align: center;
-}
-
-.Assembly-Agenda {
-  border: 5px solid black;
-  margin-top: 90px;
-  display: inline-block;
-  margin-inline: 300px;
-  padding: 5px 32px;
-  width: min(90%, 1000px);
-}
-.title_assembly-agenda {
-  color: #e34051;
-  margin-top: 10px;
-  text-align: center;
-  background-color: rgb(77, 77, 77);
-  padding: 5px 0px 5px 0px;
-}
-.next_seance {
-  text-align: center;
-  margin-top: -18px;
-  text-decoration: underline;
-}
-.Assembly-Agenda_content {
-  text-align: center;
-  margin-top: 15px;
-}
-
-/* The Presidency | Member of Parliament*/
-.title_prst-member {
-  color: black;
-  text-align: center;
-  margin-top: 55px;
-}
-.small_line {
-  text-align: center;
-}
-.link_prst {
-  text-decoration: none;
-  color: black;
-}
-.img_YBP {
-  box-shadow: 2px 2px 20px gray;
-  border-radius: 100%;
-  margin-right: 620px;
-  margin-left: 200px;
-}
-.txt_YBP {
-  font-style: italic;
-  font-size: 12px;
-  margin-top: 20px;
-  margin-left: 160px;
-}
-.txt_compoAN {
-  font-style: italic;
-  font-size: 12px;
-  margin-top: 20px;
-  margin-left: 80px;
-}
-
-.link_depute {
-  text-decoration: none;
-  color: black;
-}
-#div_prst-member {
-  display: flex;
-}
-
-/* * DÉPUTÉ*/
-/* Member of Parliament*/
-.compo_AN {
-  text-align: center;
-  margin-top: 50px;
-}
-.nb_depute_grp {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 14px;
-}
-
-.iframe_listdepute {
-  margin-top: 20px;
+html {
   width: 100%;
-  height: 900px;
+  height: 100%;
+  background-color: rgba(8, 8, 8, 1);
 }
 
-#apr {
-  color: #ffe577;
-}
-#pcf {
-  color: #a20000;
-}
-#r {
-  color: #00bbbb;
-}
-#nd {
-  color: #3498db;
-}
-#lfs {
-  color: #520811;
-}
-#ps {
-  color: #f52160;
-}
-#rn {
-  color: #3133af;
-}
-#ni {
-  color: gray;
-}
-
-.prst_groupe {
-  color: rgb(206, 3, 3);
-  text-decoration: underline;
-}
-
-/* * TRAVAUX PARLEMENTAIRES*/
-/* Last session*/
-.title_lastsession {
-  color: black;
-  margin-top: 10px;
-}
-.p_center {
-  text-align: center;
-}
-
-#last-session {
-  text-align: center;
-}
-
-.last_session {
-  border: 5px solid black;
-  margin-top: 60px;
-  margin-bottom: 10px;
-  display: inline-block;
-  margin-inline: 300px;
-  padding: 5px 32px;
-  width: min(90%, 1000px);
-  text-align: center;
-}
-
-.title_allsession {
-  text-align: center;
-  margin-top: 30px;
-  padding-left: -50px;
-}
-.small_line_2 {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.title_ADT {
-  text-align: center;
-}
-.iframe_adt {
-  margin-top: 20px;
+ul {
+  height: 100%;
   width: 100%;
-  height: 900px;
+  display: block;
+  margin: 0 auto;
 }
 
-/* Textes adoptés/refusés/en cours de débat*/
-.title_txtadopt {
-  margin-top: 50px;
-}
-.link_txtdelois_adopt {
-  text-decoration: none;
-  color: #16c60c;
-}
-.link_txtdelois_adopt:hover {
-  text-decoration: underline;
-}
-
-.title_txtrefuse {
-  margin-top: 50px;
-}
-.link_txtdelois_refuse {
-  text-decoration: none;
-  color: #e81224;
-}
-.link_txtdelois_refuse:hover {
-  text-decoration: underline;
+li {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  background: transparent;
+  border: 10px solid rgba(23, 246, 251, 1);
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-radius: 500px;
+  transition: all 0.5s ease;
 }
 
-.title_txtencourstraitement {
-  margin-top: 50px;
-}
-.link_txtdelois_traitement {
-  text-decoration: none;
-  color: #f7630c;
-}
-.link_txtdelois_traitement:hover {
-  text-decoration: underline;
-}
-
-.li {
-  margin-top: 10px;
-}
-
-/* * LA PRÉSIDENCE*/
-.img_presentation {
-  display: flex;
-  margin-top: 30px;
-  justify-content: center;
-}
-#img_GR {
-  margin-right: 60px;
-}
-.nom_président {
-  text-align: center;
-  margin-top: 20px;
-}
-#nom_président {
-  color: #d60235;
+li:last-child {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 20;
+  width: 200px;
+  height: 100px;
+  margin-left: -110px;
+  margin-top: -110px;
+  padding: 70px 0px 30px;
+  background-color: rgba(8, 8, 8, 1);
+  border: 10px solid rgba(8, 8, 8, 1);
+  border-radius: 200px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 30px rgba(23, 246, 251, 0.5);
+  animation: pulseShadow 5s infinite linear;
 }
 
-.biography {
-  text-align: center;
-  font-size: 15px;
+li:last-child:after {
+  content: "";
+  border: 3px dotted rgba(22, 42, 43, 1);
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  background-color: transparent;
+  box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 1);
 }
 
-/* Photos*/
-.img_YBP_2 {
-  box-shadow: 2px 2px 20px gray;
-  border-radius: 100%;
+li:first-child {
+  margin-left: -130px;
+  margin-top: -130px;
+  z-index: 2;
+  width: 240px;
+  height: 240px;
+  border-width: 10px;
+  animation: spinBG 5s infinite linear;
 }
-#img_YBP {
-  text-align: center;
-  margin-top: 30px;
+
+li:nth-child(2) {
+  margin-left: -137px;
+  margin-top: -137px;
+  z-index: 1;
+  width: 270px;
+  height: 270px;
+  border-width: 2px;
+  border-style: dotted;
+  box-shadow: 0px 0px 20px rgba(23, 246, 251, 0.5);
+  animation: spinBG2 2s infinite linear;
+}
+
+li:nth-child(3) {
+  margin-left: -150px;
+  margin-top: -150px;
+  z-index: 1;
+  width: 296px;
+  height: 296px;
+  border-width: 2px;
+  box-shadow: inset 0px 0px 25px rgba(23, 246, 251, 0.25);
+  animation: spinBG 12s infinite linear;
+}
+
+li:nth-child(4) {
+  margin-left: -170px;
+  margin-top: -170px;
+  z-index: 1;
+  width: 330px;
+  height: 330px;
+  border-width: 5px;
+  border-style: solid;
+  box-shadow: inset 0px 0px 25px rgba(23, 246, 251, 1);
+  animation: spinBG3 8s infinite linear;
+}
+
+/*-------------------------------------------
+ Animations
+-------------------------------------------*/
+@keyframes pulseGlow {
+  0% {
+    text-shadow: 0px 0px 20px rgba(23, 246, 251, 0.75);
+  }
+  50% {
+    text-shadow: 0px 0px 40px rgba(23, 246, 251, 0.5);
+  }
+  100% {
+    text-shadow: 0px 0px 20px rgba(23, 246, 251, 0.75);
+  }
+}
+
+@keyframes pulseShadow {
+  0% {
+    box-shadow: 0px 0px 30px rgba(23, 246, 251, 0.25);
+  }
+  50% {
+    box-shadow: 0px 0px 30px rgba(23, 246, 251, 0.75);
+  }
+  100% {
+    box-shadow: 0px 0px 30px rgba(23, 246, 251, 0.25);
+  }
+}
+
+@keyframes spinBG {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinBG2 {
+  0% {
+    transform: rotate(360deg);
+    box-shadow: 0px 0px 1px rgba(23, 246, 251, 0.5);
+  }
+  50% {
+    transform: rotate(180deg);
+    box-shadow: 0px 0px 20px rgba(23, 246, 251, 0.5);
+  }
+  100% {
+    transform: rotate(0deg);
+    box-shadow: 0px 0px 1px rgba(23, 246, 251, 0.5);
+  }
+}
+
+@keyframes spinBG3 {
+  0% {
+    transform: rotate(180deg);
+    box-shadow: 0px 0px 1px rgba(23, 246, 251, 0.1);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
 }
